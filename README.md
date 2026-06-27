@@ -1,4 +1,4 @@
-# FinEngine-AI
+# FinEngine-AI: AI-Powered Financial Transaction Processing Pipeline
 
 An AI-powered transaction processing pipeline that automates financial data cleaning, anomaly detection, transaction categorization, and reporting through a scalable microservice architecture.
 
@@ -8,7 +8,16 @@ FinEngine-AI is designed to process raw transaction datasets asynchronously usin
 
 The project demonstrates backend engineering, data processing, asynchronous task execution, containerization, and AI integration concepts.
 
----
+## Key Highlights
+
+- Asynchronous CSV Processing Pipeline
+- Dockerized Microservice Architecture
+- Redis + Celery Background Processing
+- Financial Data Cleaning & Validation
+- Statistical Anomaly Detection
+- AI-Powered Transaction Analysis
+- RESTful API Design
+
 
 ## Features
 
@@ -52,7 +61,7 @@ The project demonstrates backend engineering, data processing, asynchronous task
 * Retrieve processed results
 * View historical jobs
 
----
+
 
 ## Tech Stack
 
@@ -67,39 +76,12 @@ The project demonstrates backend engineering, data processing, asynchronous task
 | AI Integration   | Google Gemini API       |
 | ORM              | SQLAlchemy              |
 
----
+
+
 
 ## Project Architecture
 
-Client Upload → FastAPI → PostgreSQL Job Record
-
-↓
-
-Celery Task Queue
-
-↓
-
-Data Cleaning
-
-↓
-
-Anomaly Detection
-
-↓
-
-AI Categorization
-
-↓
-
-Summary Generation
-
-↓
-
-PostgreSQL Storage
-
-↓
-
-Results API
+![FinEngine-AI Architecture](docs/architecture-diagram.png)
 
 ---
 
@@ -171,4 +153,4 @@ http://localhost:8000
 
 Muhammad Usman
 
-Computer Science Student | Backend Development | Data Processing | AI Applications
+BS Computer Science Student passionate about Full-Stack Development, Backend Systems, Data Processing, and AI-Powered Applications.
